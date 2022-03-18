@@ -1,0 +1,67 @@
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.section > div{
+    background: var(--color-bg-varient);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 2.4rem 5rem;
+    border: 1px solid transparent;
+    transition: var(--transiton);
+    -webkit-transition: var(--transiton);
+    -moz-transition: var(--transiton);
+    -ms-transition: var(--transiton);
+    -o-transition: var(--transiton);
+}
+.section > div:hover{
+    border-color: var(--color-bg-varient);
+    background: transparent;
+    cursor: pointer;
+}
+.section > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary--);
+}
+.exp_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.exp_detail{
+    display: flex;
+    gap: 1rem;
+}
+.exp_detail > .icon{
+    color: var(--color-primary--);
+}
+
+@media screen and (max-width: 1024px) {
+    .section{
+        grid-template-columns: 1fr;
+    }
+    .section > div{
+        text-align: center;
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .exp_content{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section{
+        gap: 1rem;
+    }
+    .section > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

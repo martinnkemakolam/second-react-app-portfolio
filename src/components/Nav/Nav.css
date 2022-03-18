@@ -1,0 +1,54 @@
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+nav a{
+  padding: 0.9rem;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light--);
+  font-size: 1.1rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+nav a.active{
+    background: var(--color-bg--);
+    color: var(--color-white--);
+}
+@media screen and (max-width: 1024px) {
+    nav{
+        padding: 0.7rem 0.1rem;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        gap: 0.4rem;
+    } 
+        nav a{
+        padding: 0.1rem;
+        font-size: 0.9rem;
+    }  
+}
