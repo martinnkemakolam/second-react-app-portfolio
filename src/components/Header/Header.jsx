@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import Cta from './Cta'
 import Social from './Social'
-import wallpaper from './wallpaper.jpg'
+import me from '../../assets/wallpaper1.jpg'
 const Header = () => {
   return (
     <header id="Home" >
@@ -10,10 +10,10 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Martin Nkemakolam</h1>
         <h5 className="text-light"> an aspiring fullstack developer</h5>
-        <Cta/>
-        <Social/>
+        <Cta />
+        <Social />
         <div className="me">
-          <img src={wallpaper} alt="" />
+          <img src={me} alt="" />
         </div>
         <a href="#contact" className="scroll_down">scroll down</a>
       </div>

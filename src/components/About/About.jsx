@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import me from '../../assets/wallpaper1.png'
-const About = () => { 
+import me from '../../assets/wallpaper1.jpg'
+const About = () => {
   return (
     <section id="About">
       <h5>Get to know</h5>
@@ -9,7 +9,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="image">
-            <img src={me} alt=""/>
+            <img src={me} alt="" />
           </div>
         </div>
         <div className="about_content">

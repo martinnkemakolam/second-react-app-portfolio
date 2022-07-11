@@ -6,7 +6,7 @@ import avater3 from '../../assets/avatar3.jpg'
 import avater4 from '../../assets/avatar4.jpg'
 
 
-import { Pagination, Navigation} from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -43,20 +43,20 @@ const Testimonial = () => {
       <h5>Reviews from clients</h5>
       <h2>Testimonial</h2>
       <Swiper className="container testimonial_container"
-      modules={[Navigation, Pagination]}
-      spaceBetween={40}
-      slidesPerView={1}
-      pagination={{ clickable: true }}>
+        modules={[Navigation, Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}>
         {
-          data.map(({avater, name, review}, index) => {
-            return(
+          data.map(({ avater, name, review }, index) => {
+            return (
               <SwiperSlide key={index} className="testimonial">
-              <div className="client_avater">
-                <img src={avater} alt="" />
-              </div>
-              <h5 className='client_name'>{name}</h5>
-              <small className="client_review">{review}</small>
-            </SwiperSlide>
+                <div className="client_avater">
+                  <img src={avater} alt="" />
+                </div>
+                <h5 className='client_name'>{name}</h5>
+                <small className="client_review">{review}</small>
+              </SwiperSlide>
             )
           })
         }
