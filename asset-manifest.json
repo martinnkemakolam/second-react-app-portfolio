@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/second-react-app-portfolio/static/css/main.17a313f7.css",
+    "main.js": "/second-react-app-portfolio/static/js/main.0a62da93.js",
+    "static/media/portfolio5.jpeg": "/second-react-app-portfolio/static/media/portfolio5.b9530a0071ee23a16f4b.jpeg",
+    "static/media/portfolio1.jpeg": "/second-react-app-portfolio/static/media/portfolio1.c9cfd25dc59323075342.jpeg",
+    "static/media/portfolio4.jpeg": "/second-react-app-portfolio/static/media/portfolio4.388467fbb78183b39f62.jpeg",
+    "static/media/portfolio3.jpeg": "/second-react-app-portfolio/static/media/portfolio3.c1942522d6cf30f0d16d.jpeg",
+    "static/media/portfolio2.jpeg": "/second-react-app-portfolio/static/media/portfolio2.99df44d124e3c4bae92f.jpeg",
+    "static/media/wallpaper1.jpg": "/second-react-app-portfolio/static/media/wallpaper1.c6908c0db698a5436291.jpg",
+    "static/media/portfolio6.jpeg": "/second-react-app-portfolio/static/media/portfolio6.f8347b0464e043e6b9b3.jpeg",
+    "static/media/avatar1.jpg": "/second-react-app-portfolio/static/media/avatar1.5c62f101dc4051869551.jpg",
+    "index.html": "/second-react-app-portfolio/index.html",
+    "main.17a313f7.css.map": "/second-react-app-portfolio/static/css/main.17a313f7.css.map",
+    "main.0a62da93.js.map": "/second-react-app-portfolio/static/js/main.0a62da93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17a313f7.css",
+    "static/js/main.0a62da93.js"
+  ]
+}
