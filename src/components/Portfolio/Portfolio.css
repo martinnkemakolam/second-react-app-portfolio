@@ -23,6 +23,7 @@
     background: transparent;
 }
 .portfolio_image{
+    height: 300px;
     border-radius: 1.5rem;
     overflow: hidden;
 }

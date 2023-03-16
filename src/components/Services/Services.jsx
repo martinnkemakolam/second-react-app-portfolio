@@ -9,84 +9,24 @@ const Services = () => {
       <div className="container services_cont">
         <article className="service">
           <div className="services_head">
-            <h3>UI/UX Design</h3>
-          </div>
-          <ul className="service_list">
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className="service">
-          <div className="services_head">
             <h3>Web Development</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Contact me let me build you a Landing page.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Contact me let me build the frontend for your E-commerce site.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Contact me let me build you a blog.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className="service">
-          <div className="services_head">
-            <h3>Graphics And Art</h3>
-          </div>
-          <ul className="service_list">
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Contact me to optimise your website SEO.</p>
             </li>
           </ul>
         </article>

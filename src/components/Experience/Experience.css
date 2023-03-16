@@ -1,6 +1,6 @@
 .section{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 .section > div{
@@ -17,6 +17,8 @@
     -moz-transition: var(--transiton);
     -ms-transition: var(--transiton);
     -o-transition: var(--transiton);
+    width: 500px;
+    margin: 0 auto;
 }
 .section > div:hover{
     border-color: var(--color-bg-varient);
